@@ -11,10 +11,11 @@ body {
 }
 
 .app {
-  min-height: 100vh;
+  height: 100vh;
   min-width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   overflow-x: hidden;
 }
 
@@ -85,7 +86,6 @@ body {
 
 /* Main Content */
 .main-content {
-  overflow-x: hidden;
   padding: 40px 20px;
   display: flex;
   justify-content: center;

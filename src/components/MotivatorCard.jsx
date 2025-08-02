@@ -1,8 +1,8 @@
 import React from 'react';
 
 const MotivatorCard = ({ motivator }) => {
-    // Mengambil huruf pertama dari nama untuk avatar
-    const avatarLetter = motivator.name.charAt(0).toUpperCase();
+    // Membuat perulangan angka untuk avatar
+    const avatarNumber = motivator.name.split(' ').map(nama => nama[0].toUpperCase()).join('');
 
     return (
         <div className="motivator-card">
@@ -10,7 +10,7 @@ const MotivatorCard = ({ motivator }) => {
                 className="motivator-avatar"
                 style={{ backgroundColor: motivator.color }}
             >
-                {avatarLetter}
+                {avatarNumber}
             </div>
             <h3 className="motivator-name">{motivator.name}</h3>
             <p
