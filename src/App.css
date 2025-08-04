@@ -11,18 +11,17 @@ body {
 }
 
 .app {
-  height: 100vh;
-  min-width: 100vw;
+  min-height: 100vh;
+  min-width: 1801px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow-x: hidden;
+  flex: 1,
 }
 
 /* Header Section */
 .header {
   background: linear-gradient(135deg, #2648df 0%, #552a80 100%);
-  padding: 40px 10px;
+  padding: 40px 20px;
   text-align: center;
   color: white;
 }
@@ -30,13 +29,13 @@ body {
 .title {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .subtitle {
   font-size: 1.2rem;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   opacity: 0.9;
 }
 
@@ -86,10 +85,15 @@ body {
 
 /* Main Content */
 .main-content {
+  flex: 1;
+  /* Mengambil sisa ruang yang tersedia */
   padding: 40px 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  /* Mengubah dari center ke flex-start */
+  min-height: 0;
+  /* Penting untuk flex child */
 }
 
 .motivators-grid {
@@ -98,6 +102,8 @@ body {
   gap: 20px;
   max-width: 1200px;
   width: 100%;
+  align-content: start;
+  /* Mencegah grid mengambil semua ruang */
 }
 
 /* Motivator Card */
@@ -160,6 +166,10 @@ body {
   padding: 40px 20px;
   text-align: center;
   color: white;
+  flex-shrink: 0;
+  /* Mencegah footer menyusut */
+  margin-top: auto;
+  /* Mendorong footer ke bawah */
 }
 
 .footer-title {
@@ -179,11 +189,15 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
   .motivators-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .title {
     font-size: 2.5rem;
+  }
+
+  .stats {
+    gap: 40px;
   }
 }
 
@@ -199,6 +213,14 @@ body {
 
   .subtitle {
     font-size: 1rem;
+  }
+
+  .stats {
+    gap: 30px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
   }
 
   .main-content {
@@ -222,6 +244,11 @@ body {
 
   .title {
     font-size: 1.8rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
   }
 
   .header {

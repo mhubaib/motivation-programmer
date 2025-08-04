@@ -53,8 +53,12 @@ function App() {
       {/* Main Content */}
       <main className="main-content">
         <div className="motivators-grid">
-          {filteredMotivators.map((motivator) => (
-            <MotivatorCard key={motivator.uniqueId} motivator={motivator} />
+          {filteredMotivators.map((motivator, index) => (
+            <MotivatorCard
+              key={motivator.uniqueId}
+              motivator={motivator}
+              avatarNumber={index + 1}
+            />
           ))}
         </div>
       </main>

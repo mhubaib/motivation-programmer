@@ -7,116 +7,97 @@
                 {
                     "name": "Zidan",
                     "fullName": "Motivator Alpha",
-                    "class_id": 1,
-                    "color": "#FF6B6B"
+                    "class_id": 1
                 },
                 {
                     "name": "Hafiz",
                     "fullName": "Motivator Beta",
-                    "class_id": 1,
-                    "color": "#4ECDC4"
+                    "class_id": 1
                 },
                 {
                     "name": "Irgi",
                     "fullName": "Motivator Gamma",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 1,
-                    "color": "#45B7D1"
+                    "class_id": 1
                 }
             ]
         },
@@ -127,14 +108,12 @@
                 {
                     "name": "Irgi",
                     "fullName": "Motivator Gamma",
-                    "class_id": 2,
-                    "color": "#45B7D1"
+                    "class_id": 2
                 },
                 {
                     "name": "Fahmi",
                     "fullName": "Motivator Delta",
-                    "class_id": 2,
-                    "color": "#45B7D1"
+                    "class_id": 2
                 }
             ]
         }

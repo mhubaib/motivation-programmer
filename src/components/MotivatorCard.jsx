@@ -1,21 +1,22 @@
 import React from 'react';
+import { getAvatarColorByNumber } from '../utils/colors';
 
-const MotivatorCard = ({ motivator }) => {
-    // Membuat perulangan angka untuk avatar
-    const avatarNumber = motivator.name.split(' ').map(nama => nama[0].toUpperCase()).join('');
+const MotivatorCard = ({ motivator, avatarNumber }) => {
+    // Menggunakan fungsi utility untuk mendapatkan warna yang berputar
+    const avatarColor = getAvatarColorByNumber(avatarNumber);
 
     return (
         <div className="motivator-card">
             <div
                 className="motivator-avatar"
-                style={{ backgroundColor: motivator.color }}
+                style={{ backgroundColor: avatarColor }}
             >
                 {avatarNumber}
             </div>
             <h3 className="motivator-name">{motivator.name}</h3>
             <p
                 className="motivator-type"
-                style={{ color: motivator.color }}
+                style={{ color: avatarColor }}
             >
                 {motivator.fullName}
             </p>
