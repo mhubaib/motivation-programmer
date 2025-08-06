@@ -1,0 +1,70 @@
+{
+	"data": [
+		{
+			"id": 2,
+			"name": "Programmer B",
+			"santris": [
+				{
+					"name": "Zaki",
+					"fullName": "Muhammad Zaki Attoriq",
+					"class_id": 2
+				},
+				{
+					"name": "Lexy",
+					"fullName": "Lexy Evandra Putra Anggara",
+					"class_id": 2
+				},
+				{
+					"name": "Ayyasy",
+					"fullName": "Ayyasy Nuwayif",
+					"class_id": 2
+				},
+				{
+					"name": "Luthfi",
+					"fullName": "Muhammad Luthfi Aziz",
+					"class_id": 2
+				},
+				{
+					"name": "Aryan",
+					"fullName": "Fadhal Aryan Jagadditha",
+					"class_id": 2
+				},
+				{
+					"name": "Dien",
+					"fullName": "Muhammad Dien Syafiq",
+					"class_id": 2
+				},
+				{
+					"name": "Adryan",
+					"fullName": "Adryan Ilham Yudhistira",
+					"class_id": 2
+				},
+				{
+					"name": "Rayhan",
+					"fullName": "Rayhan",
+					"class_id": 2
+				},
+				{
+					"name": "Baja",
+					"fullName": "Baja Malik Syahid",
+					"class_id": 2
+				},
+				{
+					"name": "Naufal",
+					"fullName": "Naufal Hibatullah Nuril Azmi",
+					"class_id": 2
+				},
+				{
+					"name": "Jaisy",
+					"fullName": "Jaisyurrahman",
+					"class_id": 2
+				},
+				{
+					"name": "Yamin",
+					"fullName": "Muhammad Naufal Yamin",
+					"class_id": 2
+				}
+			]
+		}
+	]
+}
