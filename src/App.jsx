@@ -1,11 +1,20 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import "./App.css";
 import MotivatorCard from "./components/MotivatorCard";
 import Filter from "./components/Filter";
-import motivatorsData from "./data/motivators_b.json";
+import motivatorsData from "./data/motivators.json";
 
 function App() {
+	const [_, setSearchParams] = useSearchParams();
 	const [selectedKelas, setSelectedKelas] = useState("Programmer B");
+
+	// Update URL when selectedKelas changes
+	useEffect(() => {
+		if (selectedKelas) {
+			setSearchParams({ class_name: encodeURIComponent(selectedKelas) });
+		}
+	}, [selectedKelas, setSearchParams]);
 
 	// Mendapatkan daftar kelas yang tersedia
 	const availableKelas = useMemo(() => {
@@ -25,11 +34,9 @@ function App() {
 
 	// Filter motivator berdasarkan kelas yang dipilih
 	const filteredMotivators = useMemo(() => {
-		if (!selectedKelas) {
-			return allSantris;
-		}
+		if (!selectedKelas) return allSantris;
 		return allSantris.filter((santri) => santri.kelas === selectedKelas);
-	}, [selectedKelas, allSantris]);
+	}, [allSantris, selectedKelas]);
 
 	return (
 		<div className='app'>

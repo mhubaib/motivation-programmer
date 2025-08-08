@@ -1,5 +1,3 @@
-import React from "react";
-
 const Filter = ({ selectedKelas, onKelasChange, availableKelas }) => {
 	return (
 		<div className='filter-container'>
@@ -10,10 +8,8 @@ const Filter = ({ selectedKelas, onKelasChange, availableKelas }) => {
 				id='kelas-filter'
 				value={selectedKelas}
 				onChange={(e) => onKelasChange(e.target.value)}
-				disabled
 				className='filter-select'
 			>
-				<option value=''>Semua Kelas</option>
 				{availableKelas.map((kelas) => (
 					<option key={kelas} value={kelas}>
 						{kelas}
