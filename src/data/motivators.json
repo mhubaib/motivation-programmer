@@ -1,121 +1,146 @@
 {
-    "data": [
-        {
-            "id": 1,
-            "name": "Programmer A",
-            "santris": [
-                {
-                    "name": "Zidan",
-                    "fullName": "Motivator Alpha",
-                    "class_id": 1
-                },
-                {
-                    "name": "Hafiz",
-                    "fullName": "Motivator Beta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Irgi",
-                    "fullName": "Motivator Gamma",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 1
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Programmer B",
-            "santris": [
-                {
-                    "name": "Irgi",
-                    "fullName": "Motivator Gamma",
-                    "class_id": 2
-                },
-                {
-                    "name": "Fahmi",
-                    "fullName": "Motivator Delta",
-                    "class_id": 2
-                }
-            ]
-        }
-    ]
+	"data": [
+		{
+			"id": 1,
+			"name": "Programmer A",
+			"santris": [
+				{
+					"name": "Zidan",
+					"fullName": "Zidan Albani",
+					"class_id": 1
+				},
+				{
+					"name": "Hafiz",
+					"fullName": "Rizqullah Hafiz Triwanto",
+					"class_id": 1
+				},
+				{
+					"name": "Irgi",
+					"fullName": "Defense Irgi Harnoyo",
+					"class_id": 1
+				},
+				{
+					"name": "Fairuuz",
+					"fullName": "Fairuuz Zahran",
+					"class_id": 1
+				},
+				{
+					"name": "Yusuf",
+					"fullName": "Yusuf Ramadhani",
+					"class_id": 1
+				},
+				{
+					"name": "Rizqi",
+					"fullName": "Muhammad Rizqi Setiawan",
+					"class_id": 1
+				},
+				{
+					"name": "M Tsaqif",
+					"fullName": "Muhammad Tsaqif Alfarisi",
+					"class_id": 1
+				},
+				{
+					"name": "Faiz",
+					"fullName": "Faiz Ziyad Abdilah",
+					"class_id": 1
+				},
+				{
+					"name": "Farid",
+					"fullName": "Muhammad Farid Husain",
+					"class_id": 1
+				},
+				{
+					"name": "Harits",
+					"fullName": "M Harits",
+					"class_id": 1
+				},
+				{
+					"name": "Thoriq",
+					"fullName": "Muhammad Thoriq",
+					"class_id": 1
+				},
+				{
+					"name": "Xena",
+					"fullName": "Muhammadxenarevanda",
+					"class_id": 1
+				},
+				{
+					"name": "Kahfi",
+					"fullName": "Muhammad Al Kahfi Zikri",
+					"class_id": 1
+				},
+				{
+					"name": "Tsaqif M",
+					"fullName": "Tsaqif Muwaffaq",
+					"class_id": 1
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Programmer B",
+			"santris": [
+				{
+					"name": "Zaki",
+					"fullName": "Muhammad Zaki Attoriq",
+					"class_id": 2
+				},
+				{
+					"name": "Lexy",
+					"fullName": "Lexy Evandra Putra Anggara",
+					"class_id": 2
+				},
+				{
+					"name": "Ayyasy",
+					"fullName": "Ayyasy Nuwayif",
+					"class_id": 2
+				},
+				{
+					"name": "Luthfi",
+					"fullName": "Muhammad Luthfi Aziz",
+					"class_id": 2
+				},
+				{
+					"name": "Aryan",
+					"fullName": "Fadhal Aryan Jagadditha",
+					"class_id": 2
+				},
+				{
+					"name": "Dien",
+					"fullName": "Muhammad Dien Syafiq",
+					"class_id": 2
+				},
+				{
+					"name": "Adryan",
+					"fullName": "Adryan Ilham Yudhistira",
+					"class_id": 2
+				},
+				{
+					"name": "Rayhan",
+					"fullName": "Rayhan",
+					"class_id": 2
+				},
+				{
+					"name": "Baja",
+					"fullName": "Baja Malik Syahid",
+					"class_id": 2
+				},
+				{
+					"name": "Naufal",
+					"fullName": "Naufal Hibatullah Nuril Azmi",
+					"class_id": 2
+				},
+				{
+					"name": "Jaisy",
+					"fullName": "Jaisyurrahman",
+					"class_id": 2
+				},
+				{
+					"name": "Yamin",
+					"fullName": "Muhammad Naufal Yamin",
+					"class_id": 2
+				}
+			]
+		}
+	]
 }
