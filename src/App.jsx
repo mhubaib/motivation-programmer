@@ -7,7 +7,7 @@ import motivatorsData from "./data/motivators.json";
 
 function App() {
 	const [_, setSearchParams] = useSearchParams();
-	const [selectedKelas, setSelectedKelas] = useState("Programmer B");
+	const [selectedKelas, setSelectedKelas] = useState("Programmer B 22");
 
 	// Update URL when selectedKelas changes
 	useEffect(() => {
