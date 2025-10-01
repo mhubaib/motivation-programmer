@@ -2,16 +2,11 @@
 	"data": [
 		{
 			"id": 1,
-			"name": "Programmer A",
+			"name": "Programmer A 22",
 			"santris": [
 				{
 					"name": "Zidan",
 					"fullName": "Zidan Albani",
-					"class_id": 1
-				},
-				{
-					"name": "Hafiz",
-					"fullName": "Rizqullah Hafiz Triwanto",
 					"class_id": 1
 				},
 				{
@@ -37,11 +32,6 @@
 				{
 					"name": "M Tsaqif",
 					"fullName": "Muhammad Tsaqif Alfarisi",
-					"class_id": 1
-				},
-				{
-					"name": "Faiz",
-					"fullName": "Faiz Ziyad Abdilah",
 					"class_id": 1
 				},
 				{
@@ -78,7 +68,7 @@
 		},
 		{
 			"id": 2,
-			"name": "Programmer B",
+			"name": "Programmer B 22",
 			"santris": [
 				{
 					"name": "Zaki",
@@ -111,11 +101,6 @@
 					"class_id": 2
 				},
 				{
-					"name": "Adryan",
-					"fullName": "Adryan Ilham Yudhistira",
-					"class_id": 2
-				},
-				{
 					"name": "Rayhan",
 					"fullName": "Rayhan",
 					"class_id": 2
@@ -134,11 +119,92 @@
 					"name": "Jaisy",
 					"fullName": "Jaisyurrahman",
 					"class_id": 2
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Programmer A 23",
+			"santris": [
+				{
+					"name": "Arman",
+					"fullName": "Arman Sya'bani",
+					"class_id": 3
 				},
 				{
-					"name": "Yamin",
-					"fullName": "Muhammad Naufal Yamin",
-					"class_id": 2
+					"name": "Diandra",
+					"fullName": "Diandra Abyan Zahran",
+					"class_id": 3
+				},
+				{
+					"name": "Ikhya",
+					"fullName": "Ikhya hasnuansyah",
+					"class_id": 3
+				},
+				{
+					"name": "Rayhan",
+					"fullName": "Muhammad Rayhan Saputra",
+					"class_id": 3
+				},
+				{
+					"name": "Yusril",
+					"fullName": "Yusril Yudistira",
+					"class_id": 3
+				},
+				{
+					"name": "Firmansyah",
+					"fullName": "Firmansyah",
+					"class_id": 3
+				},
+				{
+					"name": "Fadhli",
+					"fullName": "Fadhli Al Fajri",
+					"class_id": 3
+				},
+				{
+					"name": "Zhafran",
+					"fullName": "Zhafran Harits",
+					"class_id": 3
+				},
+				{
+					"name": "Naufal",
+					"fullName": "Muhammad Naufal Rasyid",
+					"class_id": 3
+				},
+				{
+					"name": "Misbahun",
+					"fullName": "Misbahun Alfianto",
+					"class_id": 3
+				},
+				{
+					"name": "Fatah",
+					"fullName": "Ahmad Fatah",
+					"class_id": 3
+				},
+				{
+					"name": "Azzizurrahman",
+					"fullName": "Muhammad Azzizurrahman Ikram",
+					"class_id": 3
+				},
+				{
+					"name": "Raihan",
+					"fullName": "Raihan Nur Ichsan",
+					"class_id": 3
+				},
+				{
+					"name": "Akbar",
+					"fullName": "Muhammad Akbar Annursi",
+					"class_id": 3
+				},
+				{
+					"name": "Luqman",
+					"fullName": "Luqman Maliki L",
+					"class_id": 3
+				},
+				{
+					"name": "Fharel",
+					"fullName": "Muhammad Fharel Inti Putra Racer",
+					"class_id": 3
 				}
 			]
 		}
